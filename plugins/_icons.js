@@ -75,7 +75,7 @@ import {
   cilXCircle,
 } from '@coreui/icons';
 
-import { logo } from './logo';
+import { logo } from './_logo';
 
 export const iconsSet = Object.assign(
   {},

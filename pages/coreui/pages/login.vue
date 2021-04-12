@@ -66,5 +66,6 @@
 <script>
 export default {
   name: 'Login',
+  layout: 'no-layout',
 };
 </script>

@@ -43,7 +43,7 @@ export default {
     },
     userData() {
       const id = this.$route.params.id;
-      const user = usersData.find((user, index) => index + 1 == id);
+      const user = usersData.find((user, index) => index + 1 === id);
       const userDetails = user ? Object.entries(user) : [['id', 'Not found']];
       return userDetails.map(([key, value]) => {
         return { key, value };

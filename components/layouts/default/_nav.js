@@ -5,7 +5,7 @@ export default [
       {
         _name: 'CSidebarNavItem',
         name: 'Dashboard',
-        to: '/dashboard',
+        to: '/coreui/dashboard',
         icon: 'cil-speedometer',
         badge: {
           color: 'primary',
@@ -19,13 +19,13 @@ export default [
       {
         _name: 'CSidebarNavItem',
         name: 'Colors',
-        to: '/theme/colors',
+        to: '/coreui/theme/colors',
         icon: 'cil-drop',
       },
       {
         _name: 'CSidebarNavItem',
         name: 'Typography',
-        to: '/theme/typography',
+        to: '/coreui/theme/typography',
         icon: 'cil-pencil',
       },
       {
@@ -35,114 +35,114 @@ export default [
       {
         _name: 'CSidebarNavDropdown',
         name: 'Base',
-        route: '/base',
+        route: '/coreui/base',
         icon: 'cil-puzzle',
         items: [
           {
             name: 'Breadcrumbs',
-            to: '/base/breadcrumbs',
+            to: '/coreui/base/breadcrumbs',
           },
           {
             name: 'Cards',
-            to: '/base/cards',
+            to: '/coreui/base/cards',
           },
           {
             name: 'Carousels',
-            to: '/base/carousels',
+            to: '/coreui/base/carousels',
           },
           {
             name: 'Collapses',
-            to: '/base/collapses',
+            to: '/coreui/base/collapses',
           },
           {
             name: 'Forms',
-            to: '/base/forms',
+            to: '/coreui/base/forms',
           },
           {
             name: 'Jumbotrons',
-            to: '/base/jumbotrons',
+            to: '/coreui/base/jumbotrons',
           },
           {
             name: 'List Groups',
-            to: '/base/list-groups',
+            to: '/coreui/base/list-groups',
           },
           {
             name: 'Navs',
-            to: '/base/navs',
+            to: '/coreui/base/navs',
           },
           {
             name: 'Navbars',
-            to: '/base/navbars',
+            to: '/coreui/base/navbars',
           },
           {
             name: 'Paginations',
-            to: '/base/paginations',
+            to: '/coreui/base/paginations',
           },
           {
             name: 'Popovers',
-            to: '/base/popovers',
+            to: '/coreui/base/popovers',
           },
           {
             name: 'Progress Bars',
-            to: '/base/progress-bars',
+            to: '/coreui/base/progress-bars',
           },
           {
             name: 'Switches',
-            to: '/base/switches',
+            to: '/coreui/base/switches',
           },
           {
             name: 'Tables',
-            to: '/base/tables',
+            to: '/coreui/base/tables',
           },
           {
             name: 'Tabs',
-            to: '/base/tabs',
+            to: '/coreui/base/tabs',
           },
           {
             name: 'Tooltips',
-            to: '/base/tooltips',
+            to: '/coreui/base/tooltips',
           },
         ],
       },
       {
         _name: 'CSidebarNavDropdown',
         name: 'Buttons',
-        route: '/buttons',
+        route: '/coreui/buttons',
         icon: 'cil-cursor',
         items: [
           {
             name: 'Buttons',
-            to: '/buttons/standard-buttons',
+            to: '/coreui/buttons/standard-buttons',
           },
           {
             name: 'Button Dropdowns',
-            to: '/buttons/dropdowns',
+            to: '/coreui/buttons/dropdowns',
           },
           {
             name: 'Button Groups',
-            to: '/buttons/button-groups',
+            to: '/coreui/buttons/button-groups',
           },
           {
             name: 'Brand Buttons',
-            to: '/buttons/brand-buttons',
+            to: '/coreui/buttons/brand-buttons',
           },
         ],
       },
       {
         _name: 'CSidebarNavItem',
         name: 'Charts',
-        to: '/charts',
+        to: '/coreui/charts',
         icon: 'cil-chart-pie',
       },
       {
         _name: 'CSidebarNavDropdown',
         name: 'Icons',
-        route: '/icons',
+        route: '/coreui/icons',
         icon: 'cil-star',
         items: [
           {
             name: 'CoreUI Icons',
-            to: '/icons/coreui-icons',
+            to: '/coreui/icons/coreui-icons',
             badge: {
               color: 'info',
               text: 'NEW',
@@ -150,38 +150,38 @@ export default [
           },
           {
             name: 'Brands',
-            to: '/icons/brands',
+            to: '/coreui/icons/brands',
           },
           {
             name: 'Flags',
-            to: '/icons/flags',
+            to: '/coreui/icons/flags',
           },
         ],
       },
       {
         _name: 'CSidebarNavDropdown',
         name: 'Notifications',
-        route: '/notifications',
+        route: '/coreui/notifications',
         icon: 'cil-bell',
         items: [
           {
             name: 'Alerts',
-            to: '/notifications/alerts',
+            to: '/coreui/notifications/alerts',
           },
           {
             name: 'Badges',
-            to: '/notifications/badges',
+            to: '/coreui/notifications/badges',
           },
           {
             name: 'Modals',
-            to: '/notifications/modals',
+            to: '/coreui/notifications/modals',
           },
         ],
       },
       {
         _name: 'CSidebarNavItem',
         name: 'Widgets',
-        to: '/widgets',
+        to: '/coreui/widgets',
         icon: 'cil-calculator',
         badge: {
           color: 'primary',
@@ -200,24 +200,24 @@ export default [
       {
         _name: 'CSidebarNavDropdown',
         name: 'Pages',
-        route: '/pages',
+        route: '/coreui/pages',
         icon: 'cil-star',
         items: [
           {
             name: 'Login',
-            to: '/pages/login',
+            to: '/coreui/pages/login',
           },
           {
             name: 'Register',
-            to: '/pages/register',
+            to: '/coreui/pages/register',
           },
           {
             name: 'Error 404',
-            to: '/pages/404',
+            to: '/coreui/pages/404',
           },
           {
             name: 'Error 500',
-            to: '/pages/500',
+            to: '/coreui/pages/500',
           },
         ],
       },

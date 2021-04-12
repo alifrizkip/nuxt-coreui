@@ -68,7 +68,7 @@ export default {
         case 'Banned':
           return 'danger';
         default:
-          'primary';
+          return 'primary';
       }
     },
     rowClicked(item, index) {
