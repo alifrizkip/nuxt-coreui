@@ -1,26 +1,17 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">nuxt-coreui</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <h1 class="title">
+      <a
+        href="https://github.com/alifrizkip/nuxt-coreui"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="button--grey"
+      >
+        nuxt-coreui
+      </a>
+    </h1>
+    <div class="subtitle">
+      By <a href="https://github.com/alifrizkip">alifrizkip</a>
     </div>
   </div>
 </template>
@@ -32,8 +23,9 @@ export default {};
 <style>
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: '100%';
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -44,14 +36,14 @@ export default {};
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 5rem;
   color: #35495e;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 3rem;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
